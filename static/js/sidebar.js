@@ -1,20 +1,24 @@
-// Menú principal de pociones
+// Menús principales
 
-const mainButton = document.querySelector(".dropdown-main");
+const mainButtons = document.querySelectorAll(".dropdown-main");
 
-const mainMenu = document.querySelector(".submenu");
+mainButtons.forEach(button => {
 
-mainButton.addEventListener("click", () => {
+    button.addEventListener("click", () => {
 
-    if(mainMenu.style.display === "block"){
+        const menu = button.nextElementSibling;
 
-        mainMenu.style.display = "none";
+        if(menu.style.display === "block"){
 
-    }else{
+            menu.style.display = "none";
 
-        mainMenu.style.display = "block";
+        }else{
 
-    }
+            menu.style.display = "block";
+
+        }
+
+    });
 
 });
 

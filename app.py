@@ -14,9 +14,13 @@ def guides_wizard():
 def codes_wizard():
     return render_template("codes-wizard.html")
 
-@app.route("/pociones-departure-isle.html")
+@app.route("/pociones-departure-isle")
 def pociones_departure_isle():
     return render_template("pociones-departure-isle.html")
+
+@app.route("/cofres-secretos")
+def cofres_secretos():
+    return render_template("cofres-secretos.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)

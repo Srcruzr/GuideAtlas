@@ -29,9 +29,12 @@
     transform:translateX(5px);
 }
 .potion-table{
-    width:100%;
-    border-collapse:collapse;
-    margin:40px 0;
+    font-size:16px;
+}
+
+.potion-table p{
+    font-size:16px;
+    line-height:1.6;
 }
 
 .potion-table th{
@@ -54,13 +57,13 @@
 }
 
 .potion-image img{
-    width:180px;
-    margin-bottom:10px;
+    width:140px;
+    max-width:140px;
 }
 
 .potion-image h4{
+    font-size:20px;
     margin-top:10px;
-    color:white;
 }
 @media(max-width:1200px){
 
