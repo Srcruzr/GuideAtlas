@@ -429,6 +429,19 @@ nav a:hover{
     margin-bottom:18px;
 }
 
+.guide-images-small{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.guide-images-small img{
+    width:30%;
+    max-width:250px;
+    border-radius:15px;
+}
+
 .submenu a{
     margin-bottom:8px;
 

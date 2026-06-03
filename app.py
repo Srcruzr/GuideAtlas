@@ -22,5 +22,9 @@ def pociones_departure_isle():
 def cofres_secretos():
     return render_template("cofres-secretos.html")
 
+@app.route("/cofres-secretos-ashen-ruins")
+def cofres_secretos_ashen_ruins():
+    return render_template("cofres-secretos-ashen-ruins.html")
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)
