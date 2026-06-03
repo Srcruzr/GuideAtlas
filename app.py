@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__, static_folder="static", static_url_path="/static")
 
@@ -26,9 +26,9 @@ def cofres_secretos():
 def cofres_secretos_ashen_ruins():
     return render_template("cofres-secretos-ashen-ruins.html")
 
-@app.route("/googlee6a931a6b04cb4d2")
-def googlee6a931a6b04cb4d2():
-    return render_template("googlee6a931a6b04cb4d2.html")
+@app.route('/sitemap.xml')
+def sitemap():
+    return send_from_directory('.', 'sitemap.xml')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)
