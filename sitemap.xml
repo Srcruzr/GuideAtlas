@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://guideatlas.onrender.com/</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/</loc>
+    </url>
 
-<url>
-<loc>https://guideatlas.onrender.com/guides-wizard</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/guides-wizard</loc>
+    </url>
 
-<url>
-<loc>https://guideatlas.onrender.com/codes-wizard</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/codes-wizard</loc>
+    </url>
 
-<url>
-<loc>https://guideatlas.onrender.com/pociones-departure-isle</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/pociones-departure-isle</loc>
+    </url>
 
-<url>
-<loc>https://guideatlas.onrender.com/cofres-secretos</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/cofres-secretos</loc>
+    </url>
 
-<url>
-<loc>https://guideatlas.onrender.com/cofres-secretos-ashen-ruins</loc>
-</url>
+    <url>
+        <loc>https://guideatlas.onrender.com/cofres-secretos-ashen-ruins</loc>
+    </url>
 
 </urlset>
-
