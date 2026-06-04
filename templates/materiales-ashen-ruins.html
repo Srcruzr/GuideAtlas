@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Wizard Alchemy Potions and Effects</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/guides-wizard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pociones.css') }}">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    {% include 'components/navbar.html' %}
+
+    <!-- CONTENIDO -->
+
+    <section class="guide-layout">
+
+        <!-- SIDEBAR -->
+
+            {% include 'components/guide-sidebar.html' %}
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <div class="guide-content">
+
+            <h2>All Wizard Alchemy Potions (Ashen Ruins)</h2>
+
+            <p>
+                Materials are very important when making potions; depending on their magic, 
+                the materials can bring better benefits to each of your creations and future spells.
+            </p>
+
+        <h3>index of Materials</h3>
+
+        <table class="index-table">
+
+            <tr>
+                <th>Materials</th>
+            </tr>
+
+            <tr>
+                <td><a href="#fern">Fern</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#sulphur-lumps">Sulphur Lumps</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#volcanic-rock">Volcanic Rock</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#orc-ears">Orc Ears</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#orc-teeth">Orc Teeth</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#broken-arrow">Broken Arrow</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#iron-armour">Iron Armour</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#sceptre-gem">Sceptre Gem</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#golem-core">Golem Core</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#lava-behemoth-remains">Lava Behemoth Remains</a></td>
+            </tr>
+
+        </table>
+
+            <h3>All Materials</h3>
+
+            <section id="fern">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Fern
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern.png') }}" alt="Healing Potion">
+
+                            <h4>Fern</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                6
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A tough fern, is very dry and crumbles easily.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Fern Good to Use?</h4>
+
+                    <p>
+                        This material is very easy to find but is rather useless for potions; you can find it here:
+                    </p>
+
+                    <div class="guide-images">
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern1.png') }}" alt="Healing Potion">
+
+                    </div>
+                    
+            </section>
+
+            <h3>Uncommun Materials</h3>
+
+            <section id="sulphur-lumps">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Sulphur Lumps
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur.png') }}" alt="Healing Potion">
+
+                            <h4>Sulphur Lumps</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                               10
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Yellow crystals commonly found near lava have a pungent odour.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Sulphur Lumps Good to Use?</h4>
+
+                    <p>
+                        This material is not used much, but it is useful for common and uncommon potions; you can find it here:
+                    </p>
+
+                    <div class="guide-images">
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur1.png') }}" alt="Healing Potion">
+                    <img src="{{ url_for('static', filename='images/chests/chests-ashen/otro2.png') }}" alt="Healing Potion">
+
+                    </div>
+
+            </section>
+
+            <section id="volcanic-rock">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Volcanic Rock
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/volcanic.png') }}" alt="Healing Potion">
+
+                            <h4>Volcanic Rock</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                12
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Commonly found near lava where the residual heat lingers for a long time.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Volcanic Rock Good to Use?</h4>
+
+                    <p>
+                        This material is rarely used, only for lower-ranking potions; you can find it here:
+                    </p>
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/roca.png') }}" alt="Healing Potion">
+
+
+            </section>
+
+            <section id="orc-ears">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Orc Ears
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/ears.png') }}" alt="Healing Potion">
+
+                            <h4>Orc Ears</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                18
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                These oddly shaped earsare often used by addventurers as proof of a kill or as alchemical ingredients.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Orc Ears Good to Use?</h4>
+
+                    <p>
+                        This material is good and very easy to obtain, useful for unusual potions.
+                    </p>
+
+            </section>
+
+            <section id="orc-teeth">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Orc Teeth
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/teeth.png') }}" alt="Healing Potion">
+
+                            <h4>Orc Teeth</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                20
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Teeth that give off a foul adour must be thoroughly cleaned before alchemy
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Orc Teeth Good to Use?</h4>
+
+                    <p>
+                        This material is very useful because you can make several potions that you can sell.
+                    </p>
+
+            </section>
+
+            <section id="broken-arrow">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Broken Arrow
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/arrow.png') }}" alt="Healing Potion">
+
+                            <h4>Broken Arrow</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                23
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The arrows are poorly made, but the tips are still fairly Sharp.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Broken Arrow Good to Use?</h4>
+
+                    <p>
+                        Very good material to start with rare potions, which are very good for this island.
+                    </p>
+                
+                <h4>Where can I get them?</h4>
+
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies8.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies9.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Rare Materials</h3>
+
+            <section id="iron-armour">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Iron Armour
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/iron.png') }}" alt="Healing Potion">
+
+                            <h4>Iron Armour</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                29
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The Surface is covered in battle scars and shows severe wear and tear.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Iron Armour Good to Use?</h4>
+
+                    <p>
+                        Very good material for epic and rare potions.
+                    </p>
+
+            </section>
+
+            <section id="sceptre-gem">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Sceptre Gem
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/gem.png') }}" alt="Healing Potion">
+
+                            <h4>Sceptre Gem</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                32
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Imbued with magic by and ore priest, it is and ideal ingredient for achemy.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Sceptre Gem Good to Use?</h4>
+
+                    <p>
+                        Very good material for epic and rare potions.
+                    </p>
+                
+                <h4>Where can I get them?</h4>
+                
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Epic Materials</h3>
+
+            <section id="golem-core">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Golem Core
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/golem.png') }}" alt="Healing Potion">
+
+                            <h4>Golem Core</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                45
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The core of a stone golem contains massive energy.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Golem Core Good to Use?</h4>
+
+                    <p>
+                        This material is very important for epic and legendary potions, highly recommended for farming.
+                    </p>
+
+                    <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Legendary Material</h3>
+
+            <section id="lava-behemoth-remains">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Lava Behemoth Remains
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/lava.png') }}" alt="Healing Potion">
+
+                            <h4>Lava Behemoth Remains</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                43
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Even though it has lost its vitality, it still exudes and oppressive, scorching heat.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Lava Behemoth Remains Good to Use?</h4>
+
+                    <p>
+                        This is the best material on the island and very important to obtain the island's legendary potion.
+                    </p>
+
+                    <h4>Is Copper Earring Good to Use?</h4>
+
+                    <p>
+                        This is the only epic material on the entire island; it is very important for epic potions and the legendary potion.
+                    </p>
+
+                    <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            </div>
+
+            <!-- ADS -->
+
+            {% include 'components/ads.html' %}
+
+    </section>
+
+    <!-- FOOTER -->
+
+    {% include 'components/footer.html' %}
+
+    <!-- MODAL DE IMAGEN -->
+
+    <div class="image-modal" id="imageModal">
+
+        <span class="close-modal">&times;</span>
+
+        <img class="modal-content" id="modalImage">
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/image-modal.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+</body>
+</html>

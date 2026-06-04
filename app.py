@@ -30,6 +30,10 @@ def cofres_secretos_ashen_ruins():
 def materiales_departure_isle():
     return render_template("materiales-departure-isle.html")
 
+@app.route("/materiales-ashen-ruins")
+def materiales_ashen_ruins():
+    return render_template("materiales-ashen-ruins.html")
+
 
 @app.route('/sitemap.xml')
 def sitemap():
