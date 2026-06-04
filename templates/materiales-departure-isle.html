@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Wizard Alchemy Potions and Effects</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/guides-wizard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pociones.css') }}">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    {% include 'components/navbar.html' %}
+
+    <!-- CONTENIDO -->
+
+    <section class="guide-layout">
+
+        <!-- SIDEBAR -->
+
+            {% include 'components/guide-sidebar.html' %}
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <div class="guide-content">
+
+            <h2>All Wizard Alchemy Potions (Departure Isle)</h2>
+
+            <p>
+                Materials are very important when making potions; depending on their magic, 
+                the materials can bring better benefits to each of your creations and future spells.
+            </p>
+
+        <h3>index of Materials</h3>
+
+        <table class="index-table">
+
+            <tr>
+                <th>Materials</th>
+            </tr>
+
+            <tr>
+                <td><a href="#blue-berry">Blue Berry</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#seagull-egg">Seagull Egg</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#withered-mushroom">Withered Mushroom</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#goblin-finger">Goblin Finger</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#golden-tooth">Golden Tooth</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#dwarf emblem">Dwarf Emblem</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#goblin-bone">Goblin Bone</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#flame-crest">Flame Crest</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#copper-earring">Copper Earring</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#furnace core">Furnace Core</a></td>
+            </tr>
+
+        </table>
+
+            <h3>All Materials</h3>
+
+            <section id="blue-berry">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Blue Berry
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/berry.png') }}" alt="Healing Potion">
+
+                            <h4>Blue Berry</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                3
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Delicious, juicy specialities from qihang island
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Blue Berry Good to Use?</h4>
+
+                    <p>
+                        It's the first material you can find, but it doesn't work very well for very potent potions; you can find it here:
+                    </p>
+
+                    <div class="guide-images">
+
+                    <img src="{{ url_for('static', filename='images/guides/ingredientes1.png') }}" alt="Healing Potion">
+
+                    <img src="{{ url_for('static', filename='images/chests/otro1.png') }}" alt="">
+
+                    </div>
+                    
+            </section>
+
+            <section id="seagull-egg">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Seagull Egg
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/egg.png') }}" alt="Healing Potion">
+
+                            <h4>Seagull Egg</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                               5
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Remember to take it when the seagull is away.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Seagull Egg Good to Use?</h4>
+
+                    <p>
+                        It is the material with the highest magic of all the common ones, 
+                        very good for farming at the beginning of the adventure; you can find it here:
+                    </p>
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-departure/egg2.png') }}" alt="Healing Potion">
+
+            </section>
+
+            <section id="withered-mushroom">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Withered Mushroom
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/mushroom.png') }}" alt="Healing Potion">
+
+                            <h4>Withered Mushroom</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                4
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Poisonous, do not eat!
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Withered Mushroom Good to Use?</h4>
+
+                    <p>
+                        This material is good because it is very easy to find and helps a lot at the beginning of the adventure; you can find it here:
+                    </p>
+
+                    <div class="guide-images">
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-departure/mush.png') }}" alt="Healing Potion">
+
+                    <img src="{{ url_for('static', filename='images/chests/otro2.png') }}" alt="">
+
+                    </div>
+
+            </section>
+
+            <h3>Uncommun Materials</h3>
+
+            <section id="goblin-finger">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Goblin Finger
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/finger.png') }}" alt="Healing Potion">
+
+                            <h4>Goblin Finger</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                15
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A complete goblin finger, slightly boosts magin power.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Goblin Finger Good to Use?</h4>
+
+                    <p>
+                        This material is the best of the uncommon ones, very good for making slightly more advanced potions.
+                    </p>
+
+            </section>
+
+            <section id="golden-tooth">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Golden Tooth
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/tooth.png') }}" alt="Healing Potion">
+
+                            <h4>Golden Tooth</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                13
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The dwarf's carefully maintained gold tooth.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Golden Tooth Good to Use?</h4>
+
+                    <p>
+                        This material is very good and you get a lot of it in the adventure; it's very useful and easy to farm.
+                    </p>
+
+            </section>
+
+            <section id="dwarf-emblem">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Dwarf Emblem
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/dwarf.png') }}" alt="Healing Potion">
+
+                            <h4>Dwarf Emblem</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                12
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The emblem of the dwarf clan, crudely made.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Dwarf Emblem Good to Use?</h4>
+
+                    <p>
+                        This material is very common and is very important for potions that are difficult due to their varied percentages.
+                    </p>
+                
+                <h4>Where can I get them?</h4>
+
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemie1.png') }}" alt="Healing Potion">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies2.png') }}" alt="Healing Potion">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies3.png') }}" alt="Healing Potion">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies4.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Rare Materials</h3>
+
+            <section id="goblin-bone">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Goblin Bone
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/bone.png') }}" alt="Healing Potion">
+
+                            <h4>Goblin Bone</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                21
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Ground into poder, a decent alchemy material.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Goblin Bone Good to Use?</h4>
+
+                    <p>
+                        This material is better than the rare ones and is very useful for epic and rare potions.
+                    </p>
+
+            </section>
+
+            <section id="flame-crest">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Flame Crest
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/flame.png') }}" alt="Healing Potion">
+
+                            <h4>Flame Crest</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                19
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A talismán stone imbued with the power of fire.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Flame Crest Good to Use?</h4>
+
+                    <p>
+                        This material is very varied in terms of what it drops, but it's very good for rare and epic potions.
+                    </p>
+                
+                <h4>Where can I get them?</h4>
+                
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemie1.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies3.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies4.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies5.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies6.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Epic Materials</h3>
+
+            <section id="copper-earring">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Copper Earring
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/copper.png') }}" alt="Healing Potion">
+
+                            <h4>Copper Earring</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                30
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Common goblin decoration.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Copper Earring Good to Use?</h4>
+
+                    <p>
+                        This is the only epic material on the entire island; it is very important for epic potions and the legendary potion.
+                    </p>
+
+                    <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies3.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies5.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            <h3>Legendary Material</h3>
+
+            <section id="furnace-core">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Furnace Core
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-departure/furnare.png') }}" alt="Healing Potion">
+
+                            <h4>Furnace Core</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                43
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The dwatf king's energy core, excellent material for brewing fire potions.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Furnace Core Good to Use?</h4>
+
+                    <p>
+                        This is the best material on the island and very important to obtain the island's legendary potion.
+                    </p>
+
+                    <h4>Is Copper Earring Good to Use?</h4>
+
+                    <p>
+                        This is the only epic material on the entire island; it is very important for epic potions and the legendary potion.
+                    </p>
+
+                    <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies5.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies6.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies7.png') }}" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            </div>
+
+            <!-- ADS -->
+
+            {% include 'components/ads.html' %}
+
+    </section>
+
+    <!-- FOOTER -->
+
+    {% include 'components/footer.html' %}
+
+    <!-- MODAL DE IMAGEN -->
+
+    <div class="image-modal" id="imageModal">
+
+        <span class="close-modal">&times;</span>
+
+        <img class="modal-content" id="modalImage">
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/image-modal.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+</body>
+</html>
