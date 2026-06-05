@@ -38,6 +38,10 @@ def materiales_departure_isle():
 def materiales_ashen_ruins():
     return render_template("materiales-ashen-ruins.html")
 
+@app.route("/enchantments")
+def enchantments():
+    return render_template("enchantments.html")
+
 
 @app.route('/sitemap.xml')
 def sitemap():
