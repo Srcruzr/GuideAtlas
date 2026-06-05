@@ -18,6 +18,10 @@ def codes_wizard():
 def pociones_departure_isle():
     return render_template("pociones-departure-isle.html")
 
+@app.route("/pociones-ashen-ruins")
+def pociones_pociones_ashen_ruins():
+    return render_template("pociones-ashen-ruins.html")
+
 @app.route("/cofres-secretos")
 def cofres_secretos():
     return render_template("cofres-secretos.html")
