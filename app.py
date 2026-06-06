@@ -42,6 +42,13 @@ def materiales_ashen_ruins():
 def enchantments():
     return render_template("enchantments.html")
 
+@app.route("/event-gear")
+def event_gear():
+    return render_template("event-gear.html")
+
+@app.route("/materials-spirit")
+def materials_spirit():
+    return render_template("materials-spirit.html")
 
 @app.route('/sitemap.xml')
 def sitemap():
