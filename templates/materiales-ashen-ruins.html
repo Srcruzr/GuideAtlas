@@ -39,6 +39,42 @@
         <table class="index-table">
 
             <tr>
+                <th>Searches</th>
+            </tr>
+
+            <tr>
+                <td><a href="#all">All Materials in Ashen Ruins</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#fern">How to Get Fern in Wizard Alchemy</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#volcanic">How to Get Volcanic Rock in Wizard Alchemy</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#uncommun">How to get all the Uncommun materials in Wizard Alchemy (Ashen Ruins)</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#rare">How to get all the rare materials in Wizard Alchemy (Ashen Ruins)</a></td>
+            </tr>
+            
+            <tr>
+                <td><a href="#epic">How to get all the epics materials in Wizard Alchemy (Ashen Ruins)</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#legendary">How to Get Inferno Lotus in Wizard Alchemy</a></td>
+            </tr>
+
+        </table>
+
+        <table class="index-table">
+
+            <tr>
                 <th>Materials</th>
             </tr>
 
@@ -82,9 +118,13 @@
                 <td><a href="#lava-behemoth-remains">Lava Behemoth Remains</a></td>
             </tr>
 
+            <tr>
+                <td><a href="#inferno-lotus">Inferno Lotus</a></td>
+            </tr>
+
         </table>
 
-            <h3>All Materials</h3>
+            <h3 id="all">All Materials</h3>
 
             <section id="fern">
 
@@ -100,7 +140,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Fern</h4>
 
@@ -135,7 +175,7 @@
 
                 </table>
 
-                <h4>Is Fern Good to Use?</h4>
+                <h4 id="fern">How to Get Fern in Wizard Alchemy</h4>
 
                     <p>
                         This material is very easy to find but is rather useless for potions; you can find it here:
@@ -143,10 +183,70 @@
 
                     <div class="guide-images">
 
-                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern1.png') }}" alt="Healing Potion">
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/fern1.png') }}" loading="lazy" alt="Healing Potion">
 
                     </div>
                     
+            </section>
+
+            <section id="volcanic-rock">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Volcanic Rock
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/volcanic.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Volcanic Rock</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                12
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Commonly found near lava where the residual heat lingers for a long time.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4 id="volcanic">How to Get Volcanic Rock in Wizard Alchemy</h4>
+
+                    <p>
+                        This material is rarely used, only for lower-ranking potions; you can find it here:
+                    </p>
+
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/roca.png') }}" loading="lazy" alt="Healing Potion">
+
+
             </section>
 
             <h3>Uncommun Materials</h3>
@@ -165,7 +265,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Sulphur Lumps</h4>
 
@@ -208,70 +308,10 @@
 
                     <div class="guide-images">
 
-                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur1.png') }}" alt="Healing Potion">
-                    <img src="{{ url_for('static', filename='images/chests/chests-ashen/otro2.png') }}" alt="Healing Potion">
+                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/sulphur1.png') }}" loading="lazy" alt="Healing Potion">
+                    <img src="{{ url_for('static', filename='images/chests/chests-ashen/otro2.png') }}" loading="lazy" alt="Healing Potion">
 
                     </div>
-
-            </section>
-
-            <section id="volcanic-rock">
-
-                <table class="potion-table">
-
-                    <tr>
-                        <th colspan="2">
-                            Volcanic Rock
-                        </th>
-                    </tr>
-
-                    <tr>
-
-                        <td rowspan="2" class="potion-image">
-
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/volcanic.png') }}" alt="Healing Potion">
-
-                            <h4>Volcanic Rock</h4>
-
-                        </td>
-
-                        <td>
-
-                            <strong>Magic Power:</strong>
-
-                            <p>
-                                12
-                            </p>
-
-                        </td>
-
-
-                    </tr>
-
-                    <tr>
-
-                        <td>
-
-                            <strong>description:</strong>
-
-                            <p>
-                                Commonly found near lava where the residual heat lingers for a long time.
-                            </p>
-
-                        </td>
-
-                    </tr>
-
-                </table>
-
-                <h4>Is Volcanic Rock Good to Use?</h4>
-
-                    <p>
-                        This material is rarely used, only for lower-ranking potions; you can find it here:
-                    </p>
-
-                    <img src="{{ url_for('static', filename='images/materials/materials-ashen/roca.png') }}" alt="Healing Potion">
-
 
             </section>
 
@@ -289,7 +329,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/ears.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/ears.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Orc Ears</h4>
 
@@ -346,7 +386,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/teeth.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/teeth.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Orc Teeth</h4>
 
@@ -387,7 +427,24 @@
                         This material is very useful because you can make several potions that you can sell.
                     </p>
 
+                <h4 id="uncommun">How to get all the Uncommun materials in Wizard Alchemy (Ashen Ruins)</h4>
+
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies8.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies9.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" loading="lazy" alt="Healing Potion">
+
+                </div>
+
             </section>
+
+            <h3>Rare Materials</h3>
 
             <section id="broken-arrow">
 
@@ -403,7 +460,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/arrow.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/arrow.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Broken Arrow</h4>
 
@@ -443,25 +500,8 @@
                     <p>
                         Very good material to start with rare potions, which are very good for this island.
                     </p>
-                
-                <h4>Where can I get them?</h4>
-
-                <p>
-                    These materials are obtained by killing these enemies respectively:
-                </p>
-
-                <div class="guide-images-small">
-
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies8.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies9.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" alt="Healing Potion">
-
-                </div>
 
             </section>
-
-            <h3>Rare Materials</h3>
 
             <section id="iron-armour">
 
@@ -477,7 +517,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/iron.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/iron.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Iron Armour</h4>
 
@@ -534,7 +574,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/gem.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/gem.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Sceptre Gem</h4>
 
@@ -575,7 +615,7 @@
                         Very good material for epic and rare potions.
                     </p>
                 
-                <h4>Where can I get them?</h4>
+                <h4 id="rare">How to get all the rare materials in Wizard Alchemy (Ashen Ruins)</h4>
                 
                 <p>
                     These materials are obtained by killing these enemies respectively:
@@ -583,11 +623,9 @@
 
                 <div class="guide-images-small">
 
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies10.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies11.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" loading="lazy" alt="Healing Potion">
 
                 </div>
 
@@ -609,7 +647,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/golem.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/golem.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Golem Core</h4>
 
@@ -650,25 +688,7 @@
                         This material is very important for epic and legendary potions, highly recommended for farming.
                     </p>
 
-                    <h4>Where can I get them?</h4>
-                
-                <p>
-                    These materials are obtained by killing these enemies respectively:
-                </p>
-
-                    <div class="guide-images-small">
-
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
-
-                </div>
-
-            </section>
-
-            <h3>Legendary Material</h3>
-
-            <section id="lava-behemoth-remains">
+                            <section id="lava-behemoth-remains">
 
                 <table class="potion-table">
 
@@ -682,7 +702,7 @@
 
                         <td rowspan="2" class="potion-image">
 
-                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/lava.png') }}" alt="Healing Potion">
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/lava.png') }}" loading="lazy" alt="Healing Potion">
 
                             <h4>Lava Behemoth Remains</h4>
 
@@ -723,7 +743,7 @@
                         This is the best material on the island and very important to obtain the island's legendary potion.
                     </p>
 
-                    <h4>Where can I get them?</h4>
+                    <h4 id="epic">How to get all the epics materials in Wizard Alchemy (Ashen Ruins)</h4>
                 
                 <p>
                     These materials are obtained by killing these enemies respectively:
@@ -731,9 +751,83 @@
 
                     <div class="guide-images-small">
 
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" alt="Healing Potion">
-                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies14.png') }}" loading="lazy" alt="Healing Potion">
+
+                </div>
+
+            </section>
+
+            </section>
+
+            <h3>Legendary Material</h3>
+
+            <section id="inferno-lotus">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Inferno Lotus
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/materials/materials-ashen/inferno.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Inferno Lotus</h4>
+
+                        </td>
+
+                        <td>
+
+                            <strong>Magic Power:</strong>
+
+                            <p>
+                                None
+                            </p>
+
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                None
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Inferno Lotus Good to Use?</h4>
+
+                    <p>
+                        None
+                    </p>
+
+                    <h4 id="legendary">How to Get Inferno Lotus in Wizard Alchemy</h4>
+                
+                <p>
+                    These materials are obtained by killing these enemies respectively:
+                </p>
+
+                    <div class="guide-images-small">
+
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies12.png') }}" loading="lazy" alt="Healing Potion">
+                        <img src="{{ url_for('static', filename='images/materials/enemies/enemies13.png') }}" loading="lazy" alt="Healing Potion">
 
                 </div>
 
