@@ -54,5 +54,9 @@ def materials_spirit():
 def sitemap():
     return send_from_directory('.', 'sitemap.xml')
 
+@app.route('/robots.txt')
+def robots():
+    return send_from_directory('.', 'robots.txt')
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000, debug=True)
