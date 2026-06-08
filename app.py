@@ -50,6 +50,10 @@ def event_gear():
 def materials_spirit():
     return render_template("materials-spirit.html")
 
+@app.route("/potions-spirit")
+def potions_spirit():
+    return render_template("potions-spirit.html")
+
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory('.', 'sitemap.xml')

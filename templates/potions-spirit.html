@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Wizard Alchemy Potions and Effects (Ashen Ruins)</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/guides-wizard.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pociones.css') }}">
+
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    {% include 'components/navbar.html' %}
+
+    <!-- CONTENIDO -->
+
+    <section class="guide-layout">
+
+        <!-- SIDEBAR -->
+
+            {% include 'components/guide-sidebar.html' %}
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <div class="guide-content">
+
+            <h2>All Wizard Alchemy Potions (Ashen Ruins)</h2>
+
+            <p>
+                First, you must go to the potion-making area to be able to make each of the potions you need. 
+                Keep in mind that the potion you want <strong>is not guaranteed</strong> due to the creation percentages.
+            </p>
+
+            <img src="{{ url_for('static', filename='images/spirit/potions/elabo.png') }}" loading="lazy" alt="">
+
+        <h3>index of potions</h3>
+
+        <table class="index-table">
+
+            <tr>
+                <th>Potions</th>
+            </tr>
+
+            <tr>
+                <td><a href="#bear">Bear Monster</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#fiery">Fiery Bear</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#stone">Stone Spirit</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#Snowland">Snowland Stone</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#ant">Giant Forest Ant</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#lava">Lava Treant</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#treant">Tree Treant</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#shadow">Shadow Ant</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#qilin">Qilin</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#fiendish">Fiendish Qilin</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#ancient">Ancient Dragon</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#hell">Hell Dragon</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="#frost">Frost Dragon</a></td>
+            </tr>
+
+
+        </table>
+
+            <h3>All Potions</h3>
+
+            <section id="bear">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Bear Monster
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/bear.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Bear Monster</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Carrying the scent of a ferocious beast.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Bear Monster Good to Use?</h4>
+
+                    <p>
+                       This option is the most basic of the whole event; it's okay to have as a collector's item, but it's not as good as the others.
+                    </p>
+
+            </section>
+
+            <h3>Uncommun potions</h3>
+
+            <section id="fiery">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Fiery Bear
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/fiery.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Fiery Bear</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Apotent potion brimming with the essence of blazing flames
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Fiery Bear Good to Use?</h4>
+
+                    <p>
+                        This option is the most basic of the entire event for collecting; 
+                        it's an improvement on the previous potion. It's okay, but not as good as the others.
+                    </p>
+
+            </section>
+
+            <section id="stone">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Stone Spirit
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/spirit.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Stone Spirit</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The liquid glows with the distinctive.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Stone Spirit Good to Use?</h4>
+
+                    <p>
+                        This potion is a little better than the next one, but it's not recommended for farming; we have much better ones.
+                    </p>
+
+            </section>
+
+            <h3>Rare Potions</h3>
+
+            <section id="snowland">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Snowland Stone
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/snowland.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Snowland Stone</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The bottle is covered in a light Frost
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Snowland Stone Good to Use?</h4>
+
+                    <p>
+                        It's an improvement on the previous Stone Spirit potion; it's good, but we can still get better ones.
+                    </p>
+
+            </section>
+
+            <section id="ant">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Giant Forest Ants
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/ants.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Giant Forest Ants</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Imbued With the scent of the jungle's flora
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Giant Forest Ants Good to Use?</h4>
+
+                    <p>
+                        It's a very good potion; we're now entering the realm of excellent potions. It's not the best of the rare ones, but it's very useful.
+                    </p>
+
+            </section>
+
+            <h3>Epic Potions</h3>
+
+            <section id="lava">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Lava Treant
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/lava.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Lava Treant</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A potion that combines the magma and vegetation
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Lava Treant Good to Use?</h4>
+
+                    <p>
+                        It's one of the best potions for farming; if you upgrade it, it's very good, and it's highly recommended for increasing its rank.
+                    </p>
+
+            </section>
+
+            <section id="tree">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Tree Spirit
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/tree.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Tree Spirit</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Filled with the fresh scent of plants.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Tree Spirit Good to Use?</h4>
+
+                    <p>
+                        It's one of the best potions for farming; if you upgrade it, it's very good, and it's highly recommended for increasing its rank.
+                    </p>
+
+            </section>
+
+            <h3>Legendary Potions</h3>
+
+            <section id="shadow">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Shadow Ant
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/shadow.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Shadow Ant</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                None
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Shadow Ant Good to Use?</h4>
+
+                    <p>
+                        None
+                    </p>
+
+            </section>
+
+            <section id="qilin">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Qilin
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/qilin.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Qilin</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                The potion glimmers softly, calming in hand.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Qilin Good to Use?</h4>
+
+                    <p>
+                        A very good legendary potion, highly recommended and very easy to farm if done in a group or by buying it in the event shop.
+                    </p>
+
+            </section>
+
+            <section id="fiendish">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Fiendish Qilin
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/lish.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Fiendish Qilin</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                Dark-purple liquid chrns, fierce malice keeps all at bay.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Fiendish Qilin Good to Use?</h4>
+
+                    <p>
+                        It's the combination of the Qilin and the legendary potion from the first island, Departure Isle, highly recommended, guaranteed high damage.
+                    </p>
+
+            </section>
+
+            <section id="ancient">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Ancient Dragons
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/ancient.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Ancient Dragons</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A rare potion containing the ancient dragon's might.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Molten Core Potion Good to Use?</h4>
+
+                    <p>
+                        It's the best of the legendary potions, dealing a lot of area damage, highly recommended for farming completely.
+                    </p>
+
+            </section>
+
+            <section id="hell">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Hell Dragón
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/dragon.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Hell Dragón</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                A rare potion containing the hell dragon's might.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Hell Dragón Good to Use?</h4>
+
+                    <p>
+                        It's the best of the legendary potions, dealing a lot of area damage. 
+                        Highly recommended for farming completely. This is the upgrade of the dragon we already mentioned; it's very strong and effective.
+                    </p>
+
+            </section>
+
+            <section id="frost">
+
+                <table class="potion-table">
+
+                    <tr>
+                        <th colspan="2">
+                            Frost Dragón
+                        </th>
+                    </tr>
+
+                    <tr>
+
+                        <td rowspan="2" class="potion-image">
+
+                            <img src="{{ url_for('static', filename='images/spirit/potions/frost.png') }}" loading="lazy" alt="Healing Potion">
+
+                            <h4>Frost Dragón</h4>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <strong>description:</strong>
+
+                            <p>
+                                An ancient potion imbued with the icy breath of a dragón.
+                            </p>
+
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <h4>Is Frost Dragón Good to Use?</h4>
+
+                    <p>
+                        It's the best of the legendary potions, dealing a lot of area damage. 
+                        Highly recommended for farming completely. This is the upgrade of the dragon we already mentioned; it's very strong and effective.
+                    </p>
+
+            </section>
+
+            </div>
+
+            <!-- ADS -->
+
+            {% include 'components/ads.html' %}
+
+    </section>
+
+    <!-- FOOTER -->
+
+    {% include 'components/footer.html' %}
+
+    <!-- MODAL DE IMAGEN -->
+
+    <div class="image-modal" id="imageModal">
+
+        <span class="close-modal">&times;</span>
+
+        <img class="modal-content" id="modalImage">
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/image-modal.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+</body>
+</html>
