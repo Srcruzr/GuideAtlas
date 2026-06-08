@@ -54,6 +54,10 @@ def materials_spirit():
 def potions_spirit():
     return render_template("potions-spirit.html")
 
+@app.route("/shop-mistery")
+def shop_mistery():
+    return render_template("shop-mistery.html")
+
 @app.route('/sitemap.xml')
 def sitemap():
     return send_from_directory('.', 'sitemap.xml')

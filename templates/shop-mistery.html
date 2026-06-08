@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Find the Mysterious Shop in Wizard Alchemy</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/guides-wizard.css') }}">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    {% include 'components/navbar.html' %}
+
+    <!-- CONTENIDO -->
+
+    <section class="guide-layout">
+
+        <!-- SIDEBAR -->
+
+            {% include 'components/guide-sidebar.html' %}
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <div class="guide-content">
+
+            <h2>How to Find the Mysterious Shop in Wizard Alchemy</h2>
+
+            <p>
+                The game has a hidden shop that appears every so often and has many very important resources for the adventure and other very interesting things.
+            </p>
+
+            <h3>Where can we find the mystery shop in Wizard Alchemy?</h3>
+            <p>
+                This shop is flying, that's why it's not easy to find; a ship appears every so often.
+            </p>
+
+            <h3>How to redeem codes?</h3>
+
+            <p>
+                To redeem codes, open the game settings
+                by clicking the gear icon in the top right corner.
+                Then find the codes section and enter the code exactly
+                as it appears here.
+            </p>
+
+                <img src="{{ url_for('static', filename='images/mistery/barco.png') }}" loading="lazy" alt="">
+
+            <p>
+                On this ship we can find several very interesting materials, we can even find wands exclusive to the vendor.
+            </p>
+
+            <div class="guide-images">
+
+                    <img src="{{ url_for('static', filename='images/mistery/materials1.png') }}" loading="lazy" alt="">
+                    <img src="{{ url_for('static', filename='images/mistery/materials2.png') }}" loading="lazy" alt="">
+
+                </div>
+
+            <p>
+                You have a time limit for all these sales, and you can restart sales as many times as you want.
+            </p>
+
+            <h3>Important Tips</h3>
+
+            <ul class="guide-list">
+
+                <li>You should always have extra gold to be able to buy things.</li>
+
+                <li>You should always be on the lookout if you come across the store.</li>
+
+                <li>Keep in mind what you need so you don't spend money on things you don't need.</li>
+
+            </ul>
+
+            </div>
+
+            <!-- ADS -->
+
+            {% include 'components/ads.html' %}
+
+    </section>
+
+    <!-- FOOTER -->
+
+    {% include 'components/footer.html' %}
+
+    <!-- MODAL DE IMAGEN -->
+
+    <div class="image-modal" id="imageModal">
+
+        <span class="close-modal">&times;</span>
+
+        <img class="modal-content" id="modalImage">
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/image-modal.js') }}"></script>
+
+    <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+</body>
+</html>
